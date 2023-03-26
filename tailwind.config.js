@@ -3,31 +3,31 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  themes: [
-    {
-      mytheme: {
-      
-"primary": "#9effbe",
-      
-"secondary": "#d6608d",
-      
-"accent": "#c4ddfc",
-      
-"neutral": "#1E1622",
-      
-"base-100": "#F5F4F6",
-      
-"info": "#8AA1F5",
-      
-"success": "#16BBAB",
-      
-"warning": "#8C570D",
-      
-"error": "#ED2630",
-      },
-    },
-  ],
-  plugins: [
-    require('daisyui'),
-  ],
+//   daisyui: {
+//     themes: [
+//       {
+//         mytheme: {
+        
+// primary: "#136c89",
+        
+// secondary: "#1109a3",
+        
+// accent: "#fc0ca4",
+        
+// neutral: "#312541",
+        
+// "base-100": "#37323E",
+        
+// info: "#4063C4",
+        
+// success: "#30D5AB",
+        
+// warning: "#EC8209",
+        
+// error: "#F16F7E",
+//         },
+//       },
+//     ],
+//   },
+  plugins: [require("daisyui")],
 }
